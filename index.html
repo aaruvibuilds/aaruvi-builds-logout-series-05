@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aaruvi Builds — Logout 05</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="scene">
+  <div class="series-label">AARUVI BUILDS</div>
+  <section class="window" id="window">
+    <header class="nav">
+      <div class="identity">
+        <div class="logo">A</div>
+        <div class="identity-copy"><span>Workspace</span><strong>Studio</strong></div>
+      </div>
+      <div class="security-state" aria-live="polite"><i></i> SECURE SESSION</div>
+      <button class="logout" id="logout" type="button" aria-label="Lock workspace"><span>Logout</span></button>
+    </header>
+
+    <div class="dashboard">
+      <div class="heading">
+        <span class="kicker">Private workspace</span>
+        <h1>Your work is<br><em>protected.</em></h1>
+      </div>
+      <div class="grid">
+        <article class="security-card">
+          <div class="card-top"><span class="kicker">Security</span><span class="verified">VERIFIED</span></div>
+          <div class="shield"><div class="shield-inner"></div><span>✓</span></div>
+          <strong>Protected</strong><small>All sessions encrypted</small>
+        </article>
+        <article class="stat"><span class="kicker">Devices</span><strong>03</strong><small>trusted devices</small></article>
+        <article class="stat"><span class="kicker">Access</span><strong>24/7</strong><small>security monitoring</small></article>
+      </div>
+    </div>
+
+    <div class="lock-stage">
+      <div class="lock-message">
+        <span class="kicker">Securing workspace</span>
+        <h2>Locking<br><em>your session.</em></h2>
+      </div>
+      <div class="lock">
+        <div class="shackle"></div>
+        <div class="lock-body"><span class="keyhole"></span></div>
+        <div class="lock-glow"></div>
+      </div>
+    </div>
+
+    <div class="signed-out">
+      <div class="locked-symbol"><div class="shackle"></div><div class="body"></div><span class="keyhole"></span></div>
+      <span class="kicker">Session secured</span>
+      <h2>Locked out.</h2>
+      <p>Your workspace has been secured.</p>
+      <button class="again" id="again" type="button">Unlock workspace</button>
+    </div>
+  </section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
